@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: hsl(215, 51%, 70%);
+}
+
+
+/* Link  */
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:active {
+    color: hsl(0, 0%, 100%);
+}
+
+a:visited {
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+/* Card Container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    margin-top: 35px
+}
+
+.card {
+    max-width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* Image Overlay */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: hsl(178, 100%, 50%, 0.5);
+}
+
+.image-container:hover .overlay {
+    display: flex;
+    border-radius: 10px;
+}
+
+
+/* ethereum details */
+
+.ethereum {
+    float: left;
+    color: hsl(178, 100%, 50%);
+}
+
+.days-left {
+    float: right;
+}
+
+.horinzontal-line {
+    clear: both;
+    border-style: none;
+    border-top: 1px solid;
+    border-color: hsl(215, 32%, 27%);
+}
+
+
+/* author details */
+
+.avatar-img {
+    width: 30px;
+    border: 2px solid;
+    border-radius: 100%;
+    border-color: hsl(0, 0%, 100%);
+    float: left;
+}
+
+.avatar-descrip {
+    padding-left: 16%;
+}
+
+.author-name {
+    color: hsl(0, 0%, 100%);
+}
